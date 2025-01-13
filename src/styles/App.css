@@ -1,0 +1,42 @@
+/* App.css - Main app styles */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  text-align: center;
+  margin-top: auto;
+  padding: 1rem;
+  background-color: #6200ea;
+  color: white;
+  font-size: 0.9rem;
+}
+
+main {
+  flex: 1;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
